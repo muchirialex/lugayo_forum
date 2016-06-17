@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+	font-family: 'Lato', sans-serif;
+	background: #EDEFF0; 
+}
+
+.wrapper {
+	width: 60%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+.main_header {
+	width: 100%;
+	margin: 0 auto;
+	background: white;
+	#logo {
+		float: left;
+		p {
+			text-transform: uppercase;
+			font-weight: 700;
+			letter-spacing: -1px;
+			font-size: 1.2rem;
+
+		}
+	}
+	#buttons {
+		float: right;
+	}
+}
+
